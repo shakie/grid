@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D35225E1F8EE744003C8FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35225D1F8EE744003C8FDC /* AppDelegate.swift */; };
+		3D3522601F8EE744003C8FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35225F1F8EE744003C8FDC /* ViewController.swift */; };
+		3D3522631F8EE744003C8FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522611F8EE744003C8FDC /* Main.storyboard */; };
+		3D3522651F8EE744003C8FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522641F8EE744003C8FDC /* Assets.xcassets */; };
+		3D3522681F8EE744003C8FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522661F8EE744003C8FDC /* LaunchScreen.storyboard */; };
+		3D3522731F8EE744003C8FDC /* Q42GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3522721F8EE744003C8FDC /* Q42GridTests.swift */; };
+		3D35227E1F8EE744003C8FDC /* Q42GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35227D1F8EE744003C8FDC /* Q42GridUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D35226F1F8EE744003C8FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3522521F8EE744003C8FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3522591F8EE744003C8FDC;
+			remoteInfo = Q42Grid;
+		};
+		3D35227A1F8EE744003C8FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3522521F8EE744003C8FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3522591F8EE744003C8FDC;
+			remoteInfo = Q42Grid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D35225A1F8EE744003C8FDC /* Q42Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Q42Grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D35225D1F8EE744003C8FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D35225F1F8EE744003C8FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D3522621F8EE744003C8FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3522641F8EE744003C8FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D3522671F8EE744003C8FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D3522691F8EE744003C8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D35226E1F8EE744003C8FDC /* Q42GridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Q42GridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3522721F8EE744003C8FDC /* Q42GridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q42GridTests.swift; sourceTree = "<group>"; };
+		3D3522741F8EE744003C8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3522791F8EE744003C8FDC /* Q42GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Q42GridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D35227D1F8EE744003C8FDC /* Q42GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q42GridUITests.swift; sourceTree = "<group>"; };
+		3D35227F1F8EE744003C8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3522571F8EE744003C8FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D35226B1F8EE744003C8FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3522761F8EE744003C8FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3522511F8EE744003C8FDC = {
+			isa = PBXGroup;
+			children = (
+				3D35225C1F8EE744003C8FDC /* Q42Grid */,
+				3D3522711F8EE744003C8FDC /* Q42GridTests */,
+				3D35227C1F8EE744003C8FDC /* Q42GridUITests */,
+				3D35225B1F8EE744003C8FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D35225B1F8EE744003C8FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D35225A1F8EE744003C8FDC /* Q42Grid.app */,
+				3D35226E1F8EE744003C8FDC /* Q42GridTests.xctest */,
+				3D3522791F8EE744003C8FDC /* Q42GridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D35225C1F8EE744003C8FDC /* Q42Grid */ = {
+			isa = PBXGroup;
+			children = (
+				3D35225D1F8EE744003C8FDC /* AppDelegate.swift */,
+				3D35225F1F8EE744003C8FDC /* ViewController.swift */,
+				3D3522611F8EE744003C8FDC /* Main.storyboard */,
+				3D3522641F8EE744003C8FDC /* Assets.xcassets */,
+				3D3522661F8EE744003C8FDC /* LaunchScreen.storyboard */,
+				3D3522691F8EE744003C8FDC /* Info.plist */,
+			);
+			path = Q42Grid;
+			sourceTree = "<group>";
+		};
+		3D3522711F8EE744003C8FDC /* Q42GridTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3522721F8EE744003C8FDC /* Q42GridTests.swift */,
+				3D3522741F8EE744003C8FDC /* Info.plist */,
+			);
+			path = Q42GridTests;
+			sourceTree = "<group>";
+		};
+		3D35227C1F8EE744003C8FDC /* Q42GridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D35227D1F8EE744003C8FDC /* Q42GridUITests.swift */,
+				3D35227F1F8EE744003C8FDC /* Info.plist */,
+			);
+			path = Q42GridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3522591F8EE744003C8FDC /* Q42Grid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3522821F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42Grid" */;
+			buildPhases = (
+				3D3522561F8EE744003C8FDC /* Sources */,
+				3D3522571F8EE744003C8FDC /* Frameworks */,
+				3D3522581F8EE744003C8FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Q42Grid;
+			productName = Q42Grid;
+			productReference = 3D35225A1F8EE744003C8FDC /* Q42Grid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D35226D1F8EE744003C8FDC /* Q42GridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3522851F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42GridTests" */;
+			buildPhases = (
+				3D35226A1F8EE744003C8FDC /* Sources */,
+				3D35226B1F8EE744003C8FDC /* Frameworks */,
+				3D35226C1F8EE744003C8FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3522701F8EE744003C8FDC /* PBXTargetDependency */,
+			);
+			name = Q42GridTests;
+			productName = Q42GridTests;
+			productReference = 3D35226E1F8EE744003C8FDC /* Q42GridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D3522781F8EE744003C8FDC /* Q42GridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3522881F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42GridUITests" */;
+			buildPhases = (
+				3D3522751F8EE744003C8FDC /* Sources */,
+				3D3522761F8EE744003C8FDC /* Frameworks */,
+				3D3522771F8EE744003C8FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D35227B1F8EE744003C8FDC /* PBXTargetDependency */,
+			);
+			name = Q42GridUITests;
+			productName = Q42GridUITests;
+			productReference = 3D3522791F8EE744003C8FDC /* Q42GridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3522521F8EE744003C8FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Shaun Rowe";
+				TargetAttributes = {
+					3D3522591F8EE744003C8FDC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3D35226D1F8EE744003C8FDC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3522591F8EE744003C8FDC;
+					};
+					3D3522781F8EE744003C8FDC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3522591F8EE744003C8FDC;
+					};
+				};
+			};
+			buildConfigurationList = 3D3522551F8EE744003C8FDC /* Build configuration list for PBXProject "Q42Grid" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3522511F8EE744003C8FDC;
+			productRefGroup = 3D35225B1F8EE744003C8FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3522591F8EE744003C8FDC /* Q42Grid */,
+				3D35226D1F8EE744003C8FDC /* Q42GridTests */,
+				3D3522781F8EE744003C8FDC /* Q42GridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3522581F8EE744003C8FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3522681F8EE744003C8FDC /* LaunchScreen.storyboard in Resources */,
+				3D3522651F8EE744003C8FDC /* Assets.xcassets in Resources */,
+				3D3522631F8EE744003C8FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D35226C1F8EE744003C8FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3522771F8EE744003C8FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3522561F8EE744003C8FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3522601F8EE744003C8FDC /* ViewController.swift in Sources */,
+				3D35225E1F8EE744003C8FDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D35226A1F8EE744003C8FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3522731F8EE744003C8FDC /* Q42GridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3522751F8EE744003C8FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D35227E1F8EE744003C8FDC /* Q42GridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3522701F8EE744003C8FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3522591F8EE744003C8FDC /* Q42Grid */;
+			targetProxy = 3D35226F1F8EE744003C8FDC /* PBXContainerItemProxy */;
+		};
+		3D35227B1F8EE744003C8FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3522591F8EE744003C8FDC /* Q42Grid */;
+			targetProxy = 3D35227A1F8EE744003C8FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3522611F8EE744003C8FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3522621F8EE744003C8FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D3522661F8EE744003C8FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3522671F8EE744003C8FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D3522801F8EE744003C8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D3522811F8EE744003C8FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3522831F8EE744003C8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9DCV4EPJT;
+				INFOPLIST_FILE = Q42Grid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42Grid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D3522841F8EE744003C8FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9DCV4EPJT;
+				INFOPLIST_FILE = Q42Grid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42Grid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D3522861F8EE744003C8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9DCV4EPJT;
+				INFOPLIST_FILE = Q42GridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42GridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q42Grid.app/Q42Grid";
+			};
+			name = Debug;
+		};
+		3D3522871F8EE744003C8FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9DCV4EPJT;
+				INFOPLIST_FILE = Q42GridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42GridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q42Grid.app/Q42Grid";
+			};
+			name = Release;
+		};
+		3D3522891F8EE744003C8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9DCV4EPJT;
+				INFOPLIST_FILE = Q42GridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42GridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Q42Grid;
+			};
+			name = Debug;
+		};
+		3D35228A1F8EE744003C8FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9DCV4EPJT;
+				INFOPLIST_FILE = Q42GridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42GridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Q42Grid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3522551F8EE744003C8FDC /* Build configuration list for PBXProject "Q42Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3522801F8EE744003C8FDC /* Debug */,
+				3D3522811F8EE744003C8FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3522821F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3522831F8EE744003C8FDC /* Debug */,
+				3D3522841F8EE744003C8FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3522851F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42GridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3522861F8EE744003C8FDC /* Debug */,
+				3D3522871F8EE744003C8FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3522881F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42GridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3522891F8EE744003C8FDC /* Debug */,
+				3D35228A1F8EE744003C8FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3522521F8EE744003C8FDC /* Project object */;
+}
