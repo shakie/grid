@@ -1,0 +1,6 @@
+framework module Pods_Q42GridUITests {
+  umbrella header "Pods-Q42GridUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

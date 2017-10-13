@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3D35225E1F8EE744003C8FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35225D1F8EE744003C8FDC /* AppDelegate.swift */; };
-		3D3522601F8EE744003C8FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35225F1F8EE744003C8FDC /* ViewController.swift */; };
 		3D3522631F8EE744003C8FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522611F8EE744003C8FDC /* Main.storyboard */; };
 		3D3522651F8EE744003C8FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522641F8EE744003C8FDC /* Assets.xcassets */; };
 		3D3522681F8EE744003C8FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522661F8EE744003C8FDC /* LaunchScreen.storyboard */; };
 		3D3522731F8EE744003C8FDC /* Q42GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3522721F8EE744003C8FDC /* Q42GridTests.swift */; };
 		3D35227E1F8EE744003C8FDC /* Q42GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35227D1F8EE744003C8FDC /* Q42GridUITests.swift */; };
+		3DD191D71F90200700C2871D /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD191D61F90200700C2871D /* ColumnFlowLayout.swift */; };
+		3DD191D91F9039CD00C2871D /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD191D81F9039CD00C2871D /* GridViewModel.swift */; };
+		3DD191DC1F903A7B00C2871D /* GridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD191DB1F903A7B00C2871D /* GridItem.swift */; };
+		C632E84C057B8F2428CFA91F /* Pods_Q42GridUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BA708F6846168D2BF00D00 /* Pods_Q42GridUITests.framework */; };
+		CDBD53A5CB623496302AAA4D /* Pods_Q42GridTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE1E1B484EAA334702E260 /* Pods_Q42GridTests.framework */; };
+		F818E669FC0969BCDD1CF0A1 /* Pods_Q42Grid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7205E34491070417ECDEA578 /* Pods_Q42Grid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F057774AECEE59268F66D2 /* Pods-Q42GridTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42GridTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Q42GridTests/Pods-Q42GridTests.release.xcconfig"; sourceTree = "<group>"; };
+		0DA7486DDAEB840D62A9C6EF /* Pods-Q42GridUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42GridUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Q42GridUITests/Pods-Q42GridUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15DEBC84E814CF80ECFA5FED /* Pods-Q42Grid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42Grid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Q42Grid/Pods-Q42Grid.debug.xcconfig"; sourceTree = "<group>"; };
 		3D35225A1F8EE744003C8FDC /* Q42Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Q42Grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D35225D1F8EE744003C8FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D35225F1F8EE744003C8FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D3522621F8EE744003C8FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D3522641F8EE744003C8FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3522671F8EE744003C8FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,16 @@
 		3D3522791F8EE744003C8FDC /* Q42GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Q42GridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D35227D1F8EE744003C8FDC /* Q42GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q42GridUITests.swift; sourceTree = "<group>"; };
 		3D35227F1F8EE744003C8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD191D21F90191D00C2871D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DD191D61F90200700C2871D /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
+		3DD191D81F9039CD00C2871D /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		3DD191DB1F903A7B00C2871D /* GridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItem.swift; sourceTree = "<group>"; };
+		586C3545FE7BEEEB8241F26E /* Pods-Q42Grid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42Grid.release.xcconfig"; path = "Pods/Target Support Files/Pods-Q42Grid/Pods-Q42Grid.release.xcconfig"; sourceTree = "<group>"; };
+		6600D447981D19F7B35E7554 /* Pods-Q42GridTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42GridTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Q42GridTests/Pods-Q42GridTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7205E34491070417ECDEA578 /* Pods_Q42Grid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Q42Grid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BE1E1B484EAA334702E260 /* Pods_Q42GridTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Q42GridTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9F753153206CC3CA61B9E7 /* Pods-Q42GridUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42GridUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Q42GridUITests/Pods-Q42GridUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3BA708F6846168D2BF00D00 /* Pods_Q42GridUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Q42GridUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F818E669FC0969BCDD1CF0A1 /* Pods_Q42Grid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBD53A5CB623496302AAA4D /* Pods_Q42GridTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C632E84C057B8F2428CFA91F /* Pods_Q42GridUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,8 @@
 				3D3522711F8EE744003C8FDC /* Q42GridTests */,
 				3D35227C1F8EE744003C8FDC /* Q42GridUITests */,
 				3D35225B1F8EE744003C8FDC /* Products */,
+				D7C293CA2E46E91EC0F8A15D /* Pods */,
+				70021787A18661B3F6A0FDBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +119,8 @@
 		3D35225C1F8EE744003C8FDC /* Q42Grid */ = {
 			isa = PBXGroup;
 			children = (
+				3DD191D01F90191D00C2871D /* Classes */,
 				3D35225D1F8EE744003C8FDC /* AppDelegate.swift */,
-				3D35225F1F8EE744003C8FDC /* ViewController.swift */,
 				3D3522611F8EE744003C8FDC /* Main.storyboard */,
 				3D3522641F8EE744003C8FDC /* Assets.xcassets */,
 				3D3522661F8EE744003C8FDC /* LaunchScreen.storyboard */,
@@ -125,6 +147,80 @@
 			path = Q42GridUITests;
 			sourceTree = "<group>";
 		};
+		3DD191D01F90191D00C2871D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DD191D11F90191D00C2871D /* Controllers */,
+				3DD191DA1F903A6200C2871D /* Models */,
+				3DD191D31F9019C600C2871D /* Services */,
+				3DD191D51F901FD200C2871D /* Ui */,
+				3DD191D41F9019C600C2871D /* ViewModels */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DD191D11F90191D00C2871D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DD191D21F90191D00C2871D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3DD191D31F9019C600C2871D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3DD191D41F9019C600C2871D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3DD191D81F9039CD00C2871D /* GridViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3DD191D51F901FD200C2871D /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				3DD191D61F90200700C2871D /* ColumnFlowLayout.swift */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		3DD191DA1F903A6200C2871D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DD191DB1F903A7B00C2871D /* GridItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		70021787A18661B3F6A0FDBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7205E34491070417ECDEA578 /* Pods_Q42Grid.framework */,
+				88BE1E1B484EAA334702E260 /* Pods_Q42GridTests.framework */,
+				F3BA708F6846168D2BF00D00 /* Pods_Q42GridUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7C293CA2E46E91EC0F8A15D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15DEBC84E814CF80ECFA5FED /* Pods-Q42Grid.debug.xcconfig */,
+				586C3545FE7BEEEB8241F26E /* Pods-Q42Grid.release.xcconfig */,
+				6600D447981D19F7B35E7554 /* Pods-Q42GridTests.debug.xcconfig */,
+				03F057774AECEE59268F66D2 /* Pods-Q42GridTests.release.xcconfig */,
+				CA9F753153206CC3CA61B9E7 /* Pods-Q42GridUITests.debug.xcconfig */,
+				0DA7486DDAEB840D62A9C6EF /* Pods-Q42GridUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D3522821F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42Grid" */;
 			buildPhases = (
+				571E16E3D89ACC657F15A46B /* [CP] Check Pods Manifest.lock */,
 				3D3522561F8EE744003C8FDC /* Sources */,
 				3D3522571F8EE744003C8FDC /* Frameworks */,
 				3D3522581F8EE744003C8FDC /* Resources */,
+				F811F97F4B21AE1533E29E75 /* [CP] Embed Pods Frameworks */,
+				22994520EF4ECE3AE8FE2D7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D3522851F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42GridTests" */;
 			buildPhases = (
+				8BBD3AC7C1F58B788555C744 /* [CP] Check Pods Manifest.lock */,
 				3D35226A1F8EE744003C8FDC /* Sources */,
 				3D35226B1F8EE744003C8FDC /* Frameworks */,
 				3D35226C1F8EE744003C8FDC /* Resources */,
+				1EFAC501C61FE0327E16847B /* [CP] Embed Pods Frameworks */,
+				8036952DB065E595B23BE50B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D3522881F8EE744003C8FDC /* Build configuration list for PBXNativeTarget "Q42GridUITests" */;
 			buildPhases = (
+				7FA420D6D32A611F575F6EE5 /* [CP] Check Pods Manifest.lock */,
 				3D3522751F8EE744003C8FDC /* Sources */,
 				3D3522761F8EE744003C8FDC /* Frameworks */,
 				3D3522771F8EE744003C8FDC /* Resources */,
+				B1AB8A19018708A770A4C7D6 /* [CP] Embed Pods Frameworks */,
+				1D65CDC19881B244BFF788C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +359,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D65CDC19881B244BFF788C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Q42GridUITests/Pods-Q42GridUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EFAC501C61FE0327E16847B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Q42GridTests/Pods-Q42GridTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22994520EF4ECE3AE8FE2D7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Q42Grid/Pods-Q42Grid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		571E16E3D89ACC657F15A46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Q42Grid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA420D6D32A611F575F6EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Q42GridUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8036952DB065E595B23BE50B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Q42GridTests/Pods-Q42GridTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBD3AC7C1F58B788555C744 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Q42GridTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AB8A19018708A770A4C7D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Q42GridUITests/Pods-Q42GridUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F811F97F4B21AE1533E29E75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Q42Grid/Pods-Q42Grid-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Q42Grid/Pods-Q42Grid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D3522561F8EE744003C8FDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3522601F8EE744003C8FDC /* ViewController.swift in Sources */,
+				3DD191D91F9039CD00C2871D /* GridViewModel.swift in Sources */,
 				3D35225E1F8EE744003C8FDC /* AppDelegate.swift in Sources */,
+				3DD191DC1F903A7B00C2871D /* GridItem.swift in Sources */,
+				3DD191D71F90200700C2871D /* ColumnFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +687,7 @@
 		};
 		3D3522831F8EE744003C8FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DEBC84E814CF80ECFA5FED /* Pods-Q42Grid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,12 +697,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42Grid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		3D3522841F8EE744003C8FDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586C3545FE7BEEEB8241F26E /* Pods-Q42Grid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,12 +713,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42Grid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		3D3522861F8EE744003C8FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6600D447981D19F7B35E7554 /* Pods-Q42GridTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +737,7 @@
 		};
 		3D3522871F8EE744003C8FDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F057774AECEE59268F66D2 /* Pods-Q42GridTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +755,7 @@
 		};
 		3D3522891F8EE744003C8FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9F753153206CC3CA61B9E7 /* Pods-Q42GridUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +772,7 @@
 		};
 		3D35228A1F8EE744003C8FDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA7486DDAEB840D62A9C6EF /* Pods-Q42GridUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
