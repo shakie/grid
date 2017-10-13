@@ -10,4 +10,6 @@ import Foundation
 
 struct GridItem {
     
+    var value: Int? = nil
+    
 }
