@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+struct GridViewModel {
+    
+    let service = GridService()
+    let items = [[GridItem]](repeating: [GridItem](repeating: GridItem(), count: 50), count: 50)
+    
+    init() {
+        
+    }
+    
+}

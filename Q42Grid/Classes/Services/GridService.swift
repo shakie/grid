@@ -1,5 +1,5 @@
 //
-//  GridItem.swift
+//  GridService.swift
 //  Q42Grid
 //
 //  Created by Shaun Rowe on 13/10/2017.
@@ -7,11 +7,7 @@
 //
 
 import Foundation
-import UIKit
 
-struct GridItem {
-    
-    var value: Int? = nil
-    var backgroundColour: UIColor? = nil
+class GridService {
     
 }

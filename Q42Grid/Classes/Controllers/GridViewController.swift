@@ -18,6 +18,7 @@ class GridViewController: UIViewController {
         minimumLineSpacing: 2,
         sectionInset: UIEdgeInsets(top: 2, left: 2, bottom: 2, right: 2)
     )
+    let viewModel = GridViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
