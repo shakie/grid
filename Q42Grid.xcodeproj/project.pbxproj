@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1085CD1F97641000DACA90 /* GridItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1085CC1F97641000DACA90 /* GridItemViewModel.swift */; };
 		3D35225E1F8EE744003C8FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35225D1F8EE744003C8FDC /* AppDelegate.swift */; };
 		3D3522631F8EE744003C8FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522611F8EE744003C8FDC /* Main.storyboard */; };
 		3D3522651F8EE744003C8FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522641F8EE744003C8FDC /* Assets.xcassets */; };
 		3D3522681F8EE744003C8FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522661F8EE744003C8FDC /* LaunchScreen.storyboard */; };
-		3D3522731F8EE744003C8FDC /* Q42GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3522721F8EE744003C8FDC /* Q42GridTests.swift */; };
 		3D35227E1F8EE744003C8FDC /* Q42GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35227D1F8EE744003C8FDC /* Q42GridUITests.swift */; };
 		3D4008361F9170B30039EC85 /* GridService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4008351F9170B30039EC85 /* GridService.swift */; };
-		3D5E992C1F91565900AE8D6B /* Q42GridSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E992B1F91565900AE8D6B /* Q42GridSpec.swift */; };
+		3D5E992C1F91565900AE8D6B /* GridServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E992B1F91565900AE8D6B /* GridServiceSpec.swift */; };
 		3D5E992F1F915A4600AE8D6B /* FibIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E992E1F915A4600AE8D6B /* FibIterator.swift */; };
+		3D6E93771F982D92001E55D1 /* Array+contains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E93761F982D92001E55D1 /* Array+contains.swift */; };
+		3D79540E1F950347000B24A9 /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D79540D1F950347000B24A9 /* GridCollectionViewCell.swift */; };
 		3DD191D71F90200700C2871D /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD191D61F90200700C2871D /* ColumnFlowLayout.swift */; };
 		3DD191D91F9039CD00C2871D /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD191D81F9039CD00C2871D /* GridViewModel.swift */; };
-		3DD191DC1F903A7B00C2871D /* GridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD191DB1F903A7B00C2871D /* GridItem.swift */; };
+		3DFC149D1F95FFB600BD8FD8 /* GridItemSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC149C1F95FFB600BD8FD8 /* GridItemSection.swift */; };
 		3DFEDD201F90D6C400BA8F26 /* UIView+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEDD1F1F90D6C400BA8F26 /* UIView+Rounded.swift */; };
 		3DFEDD231F90DA8600BA8F26 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEDD221F90DA8600BA8F26 /* GridViewController.swift */; };
 		C632E84C057B8F2428CFA91F /* Pods_Q42GridUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BA708F6846168D2BF00D00 /* Pods_Q42GridUITests.framework */; };
@@ -47,6 +49,7 @@
 		03F057774AECEE59268F66D2 /* Pods-Q42GridTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42GridTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Q42GridTests/Pods-Q42GridTests.release.xcconfig"; sourceTree = "<group>"; };
 		0DA7486DDAEB840D62A9C6EF /* Pods-Q42GridUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42GridUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Q42GridUITests/Pods-Q42GridUITests.release.xcconfig"; sourceTree = "<group>"; };
 		15DEBC84E814CF80ECFA5FED /* Pods-Q42Grid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42Grid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Q42Grid/Pods-Q42Grid.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1085CC1F97641000DACA90 /* GridItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemViewModel.swift; sourceTree = "<group>"; };
 		3D35225A1F8EE744003C8FDC /* Q42Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Q42Grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D35225D1F8EE744003C8FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D3522621F8EE744003C8FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,17 +57,18 @@
 		3D3522671F8EE744003C8FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3522691F8EE744003C8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D35226E1F8EE744003C8FDC /* Q42GridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Q42GridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D3522721F8EE744003C8FDC /* Q42GridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q42GridTests.swift; sourceTree = "<group>"; };
 		3D3522741F8EE744003C8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D3522791F8EE744003C8FDC /* Q42GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Q42GridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D35227D1F8EE744003C8FDC /* Q42GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q42GridUITests.swift; sourceTree = "<group>"; };
 		3D35227F1F8EE744003C8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4008351F9170B30039EC85 /* GridService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridService.swift; sourceTree = "<group>"; };
-		3D5E992B1F91565900AE8D6B /* Q42GridSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q42GridSpec.swift; sourceTree = "<group>"; };
+		3D5E992B1F91565900AE8D6B /* GridServiceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridServiceSpec.swift; sourceTree = "<group>"; };
 		3D5E992E1F915A4600AE8D6B /* FibIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibIterator.swift; sourceTree = "<group>"; };
+		3D6E93761F982D92001E55D1 /* Array+contains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+contains.swift"; sourceTree = "<group>"; };
+		3D79540D1F950347000B24A9 /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
 		3DD191D61F90200700C2871D /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
 		3DD191D81F9039CD00C2871D /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
-		3DD191DB1F903A7B00C2871D /* GridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItem.swift; sourceTree = "<group>"; };
+		3DFC149C1F95FFB600BD8FD8 /* GridItemSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemSection.swift; sourceTree = "<group>"; };
 		3DFEDD1F1F90D6C400BA8F26 /* UIView+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Rounded.swift"; sourceTree = "<group>"; };
 		3DFEDD221F90DA8600BA8F26 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		586C3545FE7BEEEB8241F26E /* Pods-Q42Grid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Q42Grid.release.xcconfig"; path = "Pods/Target Support Files/Pods-Q42Grid/Pods-Q42Grid.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,8 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				3D3522741F8EE744003C8FDC /* Info.plist */,
-				3D5E992B1F91565900AE8D6B /* Q42GridSpec.swift */,
-				3D3522721F8EE744003C8FDC /* Q42GridTests.swift */,
+				3D5E992B1F91565900AE8D6B /* GridServiceSpec.swift */,
 			);
 			path = Q42GridTests;
 			sourceTree = "<group>";
@@ -161,8 +164,17 @@
 			isa = PBXGroup;
 			children = (
 				3D5E992E1F915A4600AE8D6B /* FibIterator.swift */,
+				3D6E93761F982D92001E55D1 /* Array+contains.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		3D79540C1F950309000B24A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D79540D1F950347000B24A9 /* GridCollectionViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		3DD191D01F90191D00C2871D /* Classes */ = {
@@ -174,6 +186,7 @@
 				3DD191D51F901FD200C2871D /* Ui */,
 				3D5E992D1F915A2C00AE8D6B /* Utils */,
 				3DD191D41F9019C600C2871D /* ViewModels */,
+				3D79540C1F950309000B24A9 /* Views */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -198,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				3DD191D81F9039CD00C2871D /* GridViewModel.swift */,
+				3D1085CC1F97641000DACA90 /* GridItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -214,7 +228,7 @@
 		3DD191DA1F903A6200C2871D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3DD191DB1F903A7B00C2871D /* GridItem.swift */,
+				3DFC149C1F95FFB600BD8FD8 /* GridItemSection.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -403,13 +417,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Q42GridTests/Pods-Q42GridTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -507,13 +527,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Q42GridUITests/Pods-Q42GridUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -551,13 +577,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1085CD1F97641000DACA90 /* GridItemViewModel.swift in Sources */,
 				3DD191D91F9039CD00C2871D /* GridViewModel.swift in Sources */,
 				3DFEDD201F90D6C400BA8F26 /* UIView+Rounded.swift in Sources */,
+				3DFC149D1F95FFB600BD8FD8 /* GridItemSection.swift in Sources */,
 				3DFEDD231F90DA8600BA8F26 /* GridViewController.swift in Sources */,
+				3D6E93771F982D92001E55D1 /* Array+contains.swift in Sources */,
+				3D79540E1F950347000B24A9 /* GridCollectionViewCell.swift in Sources */,
 				3D4008361F9170B30039EC85 /* GridService.swift in Sources */,
 				3D35225E1F8EE744003C8FDC /* AppDelegate.swift in Sources */,
 				3D5E992F1F915A4600AE8D6B /* FibIterator.swift in Sources */,
-				3DD191DC1F903A7B00C2871D /* GridItem.swift in Sources */,
 				3DD191D71F90200700C2871D /* ColumnFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,8 +595,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D5E992C1F91565900AE8D6B /* Q42GridSpec.swift in Sources */,
-				3D3522731F8EE744003C8FDC /* Q42GridTests.swift in Sources */,
+				3D5E992C1F91565900AE8D6B /* GridServiceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,7 +785,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6600D447981D19F7B35E7554 /* Pods-Q42GridTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9DCV4EPJT;
@@ -765,7 +792,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42GridTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q42Grid.app/Q42Grid";
 			};
@@ -775,7 +802,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03F057774AECEE59268F66D2 /* Pods-Q42GridTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9DCV4EPJT;
@@ -783,7 +809,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42GridTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q42Grid.app/Q42Grid";
 			};
@@ -793,14 +819,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA9F753153206CC3CA61B9E7 /* Pods-Q42GridUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9DCV4EPJT;
 				INFOPLIST_FILE = Q42GridUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42GridUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Q42Grid;
 			};
@@ -810,14 +835,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0DA7486DDAEB840D62A9C6EF /* Pods-Q42GridUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9DCV4EPJT;
 				INFOPLIST_FILE = Q42GridUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.Q42GridUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Q42Grid;
 			};

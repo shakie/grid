@@ -11,7 +11,12 @@ import UIKit
 
 struct GridItem {
     
-    var value: Int? = nil
-    var backgroundColour: UIColor? = nil
+    var number: Int? = nil
+    var updated = false
+    var fibonnaci = false
+    
+    init(_ number: Int? = nil) {
+        self.number = number
+    }
     
 }

@@ -7,7 +7,30 @@
 		<key>Q42Grid.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>12</integer>
+		</dict>
+		<key>Q42GridNoUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3D3522591F8EE744003C8FDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D35226D1F8EE744003C8FDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D3522781F8EE744003C8FDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

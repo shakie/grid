@@ -13,6 +13,8 @@ target 'Q42Grid' do
   def testing_pods
     pod 'Quick'
     pod 'Nimble'
+    pod 'RxTest'
+    pod 'RxBlocking'
   end
 
   target 'Q42GridTests' do

@@ -2,14 +2,13 @@
 //  ColumnFlowLayout.swift
 //  Q42Grid
 //
-//  Created by Shaun Rowe on 12/10/2017.
 //  Copyright © 2017 Shaun Rowe. All rights reserved.
 //
 
 import UIKit
 
 class ColumnFlowLayout: UICollectionViewFlowLayout {
-
+    
     let cellsPerRow: Int
     override var itemSize: CGSize {
         get {
